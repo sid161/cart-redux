@@ -15,7 +15,7 @@ export const actFetchProductsRequest = () => {
   };
 };
 
-/*GET_ALL_PRODUCT*/
+/*Get Products*/
 export function GetAllProduct(payload) {
   return {
     type: "GET_ALL_PRODUCT",
@@ -23,7 +23,6 @@ export function GetAllProduct(payload) {
   };
 }
 
-/*GET NUMBER CART*/
 export function GetNumberCart() {
   return {
     type: "GET_NUMBER_CART",
